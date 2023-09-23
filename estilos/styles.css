@@ -1,0 +1,149 @@
+.banner {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 350px 0; /* Ajusta el espaciado superior e inferior según tus necesidades */
+    position: relative;
+    background-color: #0c2f72;
+}
+
+.logo {
+    position: absolute; /* Posición absoluta para el logo */
+    top: 20px; /* Distancia desde la parte superior */
+    left: 20px; /* Distancia desde la izquierda */
+}
+
+.logo img {
+    width: 50px; /* Ancho de tu logo */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+
+.banner h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+section {
+    padding: 2rem;
+}
+
+.proyecto1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 20px;
+    width: 1200px;
+    height: 800px;
+}
+
+.proyecto2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 20px;
+    width: 1200px;
+    height: 800px;
+}
+
+.proyecto3 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 20px;
+    background-image: ('img/abogado.jpg');
+    width: 1200px;
+    height: 800px;
+}
+
+
+#trabajos {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 20px;
+    width: 99%;
+    height: 800px;
+}
+
+#contacto{
+    color: #000000;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #0c2f72;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Color de texto normal */
+    transition: color 0.3s; /* Animación de transición de color */
+}
+
+nav ul li a:hover {
+    color: #0f70a8; /* Color de texto al pasar el cursor por encima */
+}
+
+.slider {
+    width: 99%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 99%;
+    display: none;
+}
+
+.slide img {
+    width: 99%;
+    height: auto;
+    background-position: center;
+}
